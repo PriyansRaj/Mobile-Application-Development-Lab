@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <EditText
+        android:id="@+id/etPan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter PAN Card Number"
+        android:maxLength="10"
+        android:inputType="textCapCharacters"/>
+
+    <EditText
+        android:id="@+id/etPincode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter City Pincode"
+        android:maxLength="6"
+        android:inputType="number"
+        android:layout_marginTop="16dp"/>
+
+    <Button
+        android:id="@+id/btnValidate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Validate"
+        android:layout_marginTop="24dp"/>
+
+</LinearLayout>
