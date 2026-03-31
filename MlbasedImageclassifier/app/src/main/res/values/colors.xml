@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary colors for flood detection theme -->
+    <color name="colorPrimary">#1E88E5</color>
+    <color name="colorPrimaryDark">#1565C0</color>
+    <color name="colorAccent">#42A5F5</color>
+
+    <!-- Background colors -->
+    <color name="colorBackground">#F5F7FA</color>
+    <color name="colorSurface">#FFFFFF</color>
+
+    <!-- Text colors -->
+    <color name="colorTextPrimary">#263238</color>
+    <color name="colorTextSecondary">#607D8B</color>
+
+    <!-- Severity colors -->
+    <color name="colorLow">#4CAF50</color>
+    <color name="colorModerate">#FF9800</color>
+    <color name="colorHigh">#F44336</color>
+
+    <!-- Flood overlay colors -->
+    <color name="colorFloodOverlay">#801E90FF</color>
+
+    <!-- Standard colors -->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+</resources>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Flood Damage Detector</string>
+    <string name="header_title">Flood Damage Detector</string>
+    <string name="header_subtitle">AI-powered flood area analysis using TensorFlow Lite</string>
+
+    <!-- Buttons -->
+    <string name="btn_pick_image">Pick Image</string>
+    <string name="btn_analyze">Analyze Flood Area</string>
+
+    <!-- Card titles -->
+    <string name="card_original_image">Original Image</string>
+    <string name="card_result_image">Flood Detection Result</string>
+    <string name="card_analysis_result">Analysis Result</string>
+
+    <!-- Status messages -->
+    <string name="status_init">Initializing model…</string>
+    <string name="status_model_loaded">Model loaded successfully</string>
+    <string name="status_model_error">Error loading model</string>
+    <string name="status_select_image">Select an image to begin</string>
+    <string name="status_image_selected">Image selected. Ready for analysis.</string>
+    <string name="status_analyzing">Analyzing flood area…</string>
+    <string name="status_complete">Analysis complete</string>
+    <string name="status_failed">Analysis failed</string>
+
+    <!-- Result labels -->
+    <string name="label_flood_coverage">Flood Coverage</string>
+    <string name="label_severity">Severity Level</string>
+    <string name="label_pixels">Pixels</string>
+
+    <!-- Severity levels -->
+    <string name="severity_low">Low</string>
+    <string name="severity_moderate">Moderate</string>
+    <string name="severity_high">High</string>
+
+    <!-- Content descriptions -->
+    <string name="cd_original_image">Selected original image for analysis</string>
+    <string name="cd_result_image">Flood detection mask or overlay result</string>
+</resources>

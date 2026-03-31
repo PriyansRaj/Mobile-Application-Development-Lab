@@ -1,0 +1,21 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Dark theme for Flood Damage Detector -->
+    <style name="Base.Theme.MlbasedImageclassifier" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Primary colors for dark mode -->
+        <item name="colorPrimary">@color/colorAccent</item>
+        <item name="colorPrimaryDark">#0D47A1</item>
+        <item name="colorAccent">@color/colorPrimary</item>
+
+        <!-- Surface colors for dark mode -->
+        <item name="android:colorBackground">#121212</item>
+        <item name="colorSurface">#1E1E1E</item>
+
+        <!-- Text colors for dark mode -->
+        <item name="android:textColorPrimary">#FFFFFF</item>
+        <item name="android:textColorSecondary">#B0BEC5</item>
+
+        <!-- Status bar -->
+        <item name="android:statusBarColor" tools:targetApi="l">#1E1E1E</item>
+        <item name="android:navigationBarColor" tools:targetApi="l">#121212</item>
+    </style>
+</resources>
