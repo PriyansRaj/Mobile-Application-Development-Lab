@@ -1,0 +1,70 @@
+<!-- ════════════════════════════════════════════════════
+     res/color/nav_item_color.xml
+════════════════════════════════════════════════════ -->
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:color="@color/brand_primary" android:state_checked="true"/>
+    <item android:color="?attr/colorOnSurfaceVariant"/>
+</selector>
+
+---
+
+<!-- ════════════════════════════════════════════════════
+     res/color/btn_analyze_bg.xml
+════════════════════════════════════════════════════ -->
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:color="@color/brand_primary" android:state_enabled="true"/>
+    <item android:color="?attr/colorOutlineVariant"/>
+</selector>
+
+---
+
+<!-- ════════════════════════════════════════════════════
+     res/menu/bottom_nav_menu.xml
+════════════════════════════════════════════════════ -->
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navHome"
+        android:icon="@drawable/ic_home"
+        android:title="Home"/>
+
+    <item
+        android:id="@+id/navHistory"
+        android:icon="@drawable/ic_history"
+        android:title="History"/>
+
+    <item
+        android:id="@+id/navSettings"
+        android:icon="@drawable/ic_settings"
+        android:title="Settings"/>
+
+</menu>
+
+---
+
+<!-- ════════════════════════════════════════════════════
+     res/menu/history_menu.xml  (toolbar overflow)
+════════════════════════════════════════════════════ -->
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menuSort"
+        android:title="Sort by"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/menuExport"
+        android:title="Export CSV"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/menuClearAll"
+        android:title="Clear all"
+        app:showAsAction="never"/>
+
+</menu>
