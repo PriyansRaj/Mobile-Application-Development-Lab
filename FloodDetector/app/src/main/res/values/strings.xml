@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">FloodWatch</string>
+
+    <!-- Navigation -->
+    <string name="nav_home">Home</string>
+    <string name="nav_history">History</string>
+    <string name="nav_settings">Settings</string>
+
+    <!-- Home Screen -->
+    <string name="upload_image">Upload Image</string>
+    <string name="tap_to_select">Tap to select an image</string>
+    <string name="analyze">Analyze</string>
+    <string name="save_to_history">Save to History</string>
+    <string name="analyzing">Analyzing…</string>
+    <string name="analysis_results">Analysis Results</string>
+    <string name="flood_percentage">Flood Percentage</string>
+    <string name="flooded_pixels_format">Flooded: %1$d px</string>
+    <string name="total_pixels_format">Total: %1$d px</string>
+    <string name="severity">Severity</string>
+    <string name="no_image_selected">No image selected</string>
+
+    <!-- History Screen -->
+    <string name="search_history">Search history</string>
+    <string name="filter_all">All</string>
+    <string name="filter_severe">Severe</string>
+    <string name="filter_moderate">Moderate</string>
+    <string name="filter_low">Low</string>
+    <string name="empty_history">No analysis records yet</string>
+    <string name="empty_history_subtitle">Your saved analyses will appear here</string>
+    <string name="delete">Delete</string>
+    <string name="cancel">Cancel</string>
+    <string name="confirm_delete">Confirm Delete</string>
+    <string name="delete_record_message">Are you sure you want to delete this record?</string>
+
+    <!-- Settings Screen -->
+    <string name="settings_appearance">Appearance</string>
+    <string name="settings_theme">Theme</string>
+    <string name="theme_system">Follow System</string>
+    <string name="theme_light">Light</string>
+    <string name="theme_dark">Dark</string>
+
+    <string name="settings_analysis">Analysis</string>
+    <string name="auto_save">Auto-save results</string>
+    <string name="auto_save_desc">Automatically save analysis to history</string>
+    <string name="confidence_threshold">Confidence Threshold</string>
+    <string name="confidence_value_format">%1$d%%</string>
+    <string name="output_quality">Output Quality</string>
+
+    <string name="settings_storage">Storage</string>
+    <string name="clear_history">Clear History</string>
+    <string name="clear_history_desc">Delete all saved analysis records</string>
+    <string name="confirm_clear_history">Are you sure you want to delete all analysis records?</string>
+    <string name="clear">Clear</string>
+    <string name="history_cleared">History cleared</string>
+
+    <string name="settings_about">About</string>
+    <string name="model_name">ML Model</string>
+    <string name="app_version">App Version</string>
+
+    <!-- General -->
+    <string name="ok">OK</string>
+    <string name="error_loading_image">Failed to load image</string>
+    <string name="error_analysis">Analysis failed</string>
+    <string name="saved_to_history">Saved to history</string>
+</resources>

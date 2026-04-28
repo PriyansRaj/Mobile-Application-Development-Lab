@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/Widget.FloodWatch.CardView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="12dp"
+    android:clickable="true"
+    android:focusable="true">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="12dp">
+
+        <!-- Thumbnail -->
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/card_thumbnail"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="0dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageView
+                android:id="@+id/iv_thumbnail"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                tools:background="@color/colorSurfaceVariant" />
+
+        </com.google.android.material.card.MaterialCardView>
+
+        <!-- Title -->
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:textAppearance="?attr/textAppearanceTitleMedium"
+            android:textColor="?attr/colorOnSurface"
+            app:layout_constraintEnd_toStartOf="@id/tv_flood_percent"
+            app:layout_constraintStart_toEndOf="@id/card_thumbnail"
+            app:layout_constraintTop_toTopOf="@id/card_thumbnail"
+            tools:text="Analysis Jan 15, 10:30" />
+
+        <!-- Date -->
+        <TextView
+            android:id="@+id/tv_date"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="2dp"
+            android:textAppearance="?attr/textAppearanceBodySmall"
+            android:textColor="?attr/colorOnSurfaceVariant"
+            app:layout_constraintEnd_toStartOf="@id/tv_flood_percent"
+            app:layout_constraintStart_toEndOf="@id/card_thumbnail"
+            app:layout_constraintTop_toBottomOf="@id/tv_title"
+            tools:text="Jan 15, 2024 10:30" />
+
+        <!-- Severity Chip -->
+        <com.google.android.material.chip.Chip
+            android:id="@+id/chip_severity"
+            style="@style/Widget.FloodWatch.Chip.Severity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="4dp"
+            app:layout_constraintBottom_toBottomOf="@id/card_thumbnail"
+            app:layout_constraintStart_toEndOf="@id/card_thumbnail"
+            app:layout_constraintTop_toBottomOf="@id/tv_date"
+            tools:text="Moderate" />
+
+        <!-- Flood Percent Badge -->
+        <TextView
+            android:id="@+id/tv_flood_percent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?attr/textAppearanceTitleLarge"
+            android:textColor="?attr/colorPrimary"
+            app:layout_constraintBottom_toBottomOf="@id/card_thumbnail"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@id/card_thumbnail"
+            tools:text="45.2%" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</com.google.android.material.card.MaterialCardView>

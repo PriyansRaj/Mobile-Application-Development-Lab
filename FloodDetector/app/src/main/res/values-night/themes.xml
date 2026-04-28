@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Dark Theme Colors Override -->
+    <color name="colorSurface">#1C1B1F</color>
+    <color name="colorOnSurface">#E6E1E5</color>
+    <color name="colorSurfaceVariant">#49454F</color>
+    <color name="colorOnSurfaceVariant">#CAC4D0</color>
+    <color name="colorBackground">#1C1B1F</color>
+    <color name="colorOnBackground">#E6E1E5</color>
+    <color name="colorOutline">#938F99</color>
+    <color name="colorOutlineVariant">#49454F</color>
+
+    <style name="Theme.FloodWatch" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/brand_primary</item>
+        <item name="colorPrimaryVariant">@color/brand_primary_variant</item>
+        <item name="colorOnPrimary">@color/on_primary</item>
+        <item name="colorSecondary">@color/colorSecondary</item>
+        <item name="colorOnSecondary">@color/colorOnSecondary</item>
+        <item name="colorSurface">@color/colorSurface</item>
+        <item name="colorOnSurface">@color/colorOnSurface</item>
+        <item name="colorSurfaceVariant">@color/colorSurfaceVariant</item>
+        <item name="colorOnSurfaceVariant">@color/colorOnSurfaceVariant</item>
+        <item name="android:colorBackground">@color/colorBackground</item>
+        <item name="colorOnBackground">@color/colorOnBackground</item>
+        <item name="colorOutline">@color/colorOutline</item>
+        <item name="colorOutlineVariant">@color/colorOutlineVariant</item>
+        <item name="colorError">@color/colorError</item>
+        <item name="colorOnError">@color/colorOnError</item>
+        <item name="android:statusBarColor">@color/colorSurface</item>
+        <item name="android:navigationBarColor">@color/colorSurface</item>
+    </style>
+</resources>
